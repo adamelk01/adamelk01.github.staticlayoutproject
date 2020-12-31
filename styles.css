@@ -1,0 +1,98 @@
+/* GENERAL SETUP */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+   font-size: 10px;
+   background: linear-gradient(130deg, rgba(76, 15, 138, 1) 0%, rgba(40,45,112,1) 50%, rgba(40, 45, 112,1) 100%)
+}
+
+
+body{
+   height: 100vh;
+   width: 80vw;
+   margin: 0 auto;
+}
+
+
+header {
+   margin-bottom: 200px;
+   
+}
+
+ul {
+   color: white;
+}
+
+section {
+   background-color: white;
+   text-align: center;
+}
+
+h1 {
+   color: white;
+}
+h2 {
+   text-align: center;
+   color: white;
+}
+
+h3 {
+   color: black;
+}
+
+h4 {
+   color: black;
+}
+
+h5 {
+   color: orange;
+}
+
+nav {
+   height: 50px;
+}
+
+nav ul {
+   display: flex;
+}
+
+nav li {
+   list-style-type: none;
+   text-align: center;
+   flex: 1;
+   font-size: 2rem;
+   text-transform: uppercase;
+}
+
+
+
+main{
+   display: flex;
+}
+
+section, article {
+   flex: 4;
+   
+}
+
+
+
+footer {
+   margin-top: 50px;
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+ }
+
+ button {
+    background-color: orange;
+    color: white;
+   
+ }
